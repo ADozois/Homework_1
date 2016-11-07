@@ -33,7 +33,7 @@ void parseEntry(char* entry, Node* g){
             g->Edge[i-2].Name = entry[i];
         }
     } else{
-        findIndex(g->Edge, len-2,entry[i]);
+        //findIndex(g->Edge, len-2,entry[i]);
     }
 }
 
